@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | J&AM PURE BANAFLOUR</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffdf7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #4caf50;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1em;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #c8e6c9;
+    }
+
+    header {
+      background: url('images/header-bg.jpg') center/cover no-repeat;
+      text-align: center;
+      color: white;
+      padding: 120px 20px 80px;
+      position: relative;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 0;
+    }
+
+    header img {
+      width: 320px; /* MUCH BIGGER LOGO */
+      max-width: 90%;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+      font-size: 3.2em;
+      margin-bottom: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header p {
+      font-size: 1.3em;
+      color: #fdd835;
+      position: relative;
+      z-index: 1;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2em;
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      padding: 0 10px;
+    }
+
+    footer {
+      background-color: #212121;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      header img {
+        width: 220px;
+      }
+
+      header h1 {
+        font-size: 2.2em;
+      }
+
+      section h2 {
+        font-size: 1.6em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="product.html">Product</a>
+    <a href="contact.html">Contact</a>
+    <a href="teams.html">Team</a>
+  </nav>
+
+  <header>
+    <img src="logo.jpg" alt="J&AM Logo"/>
+    <h1>J&AM PURE BANAFLOUR</h1>
+    <p>Your Healthy Choice of Banana Flour with Moringa & Kalabasa</p>
+  </header>
+
+  <section>
+    <h2>Welcome to J&AM PURE BANAFLOUR!</h2>
+    <p>We produce healthy, innovative, and locally made banana flour enhanced with Moringa and Kalabasa for added nutrition. Perfect for your baking and cooking needs!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 J&AM PURE BANAFLOUR. All rights reserved.</p>
+  </footer>
+</body>
+</html>

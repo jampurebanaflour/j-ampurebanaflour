@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Team | J&AM PURE BANAFLOUR</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fffdf7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #4caf50;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #c8e6c9;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px 20px;
+            color: #2e7d32;
+        }
+
+        .team-container {
+            max-width: 1100px;
+            margin: 0 auto 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        .team-card {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px 20px 25px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .team-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            border: 4px solid #4caf50;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .team-card h3 {
+            margin-bottom: 8px;
+            font-size: 1.4rem;
+            color: #2e7d32;
+        }
+
+        .team-card p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-top: 0;
+        }
+
+        footer {
+            background: #212121;
+            color: #fff;
+            text-align: center;
+            padding: 25px 20px;
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="contact.html">Contact</a>
+        <a href="teams.html">Team</a>
+    </nav>
+
+    <header>
+        <h1>Meet Our Team</h1>
+    </header>
+
+    <section class="team-container">
+        <div class="team-card">
+            <img src="Joenalyn.png" alt="Joenalyn Plazo" class="team-photo" />
+            <h3>Joenalyn Plazo</h3>
+            <p>General Manager / Owner</p>
+        </div>
+        <div class="team-card">
+            <img src="jenelyn.png" alt="Jenelyn Perdon" class="team-photo" />
+            <h3>Jenelyn Perdon</h3>
+            <p>Operation Officer</p>
+        </div>
+        <div class="team-card">
+            <img src="marygrace.png" alt="Mary Grace Señar" class="team-photo" />
+            <h3>Mary Grace Señar</h3>
+            <p>Financial Officer</p>
+        </div>
+        <div class="team-card">
+            <img src="angelo.png" alt="Angelo Labatete" class="team-photo" />
+            <h3>Angelo Labatete</h3>
+            <p>Marketing Officer</p>
+        </div>
+        <div class="team-card">
+            <img src="abegail.png" alt="Abegail Lozada" class="team-photo" />
+            <h3>Abegail Lozada</h3>
+            <p>HR Officer</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 J&AM PURE BANAFLOUR. All rights reserved.</p>
+    </footer>
+</body>
+</html>
